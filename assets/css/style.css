@@ -1,0 +1,20 @@
+body {
+	background-color: #efefef;
+	box-sizing: content-box;
+}
+
+.header-home {
+ 	background: #1B2030 url(https://static.takeaway.com/images/generic/heroes/71/71_indian_1.jpg) top center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+	color: white;
+	padding: 2%;
+	box-sizing: content-box;
+	text-align: center;
+	min-height: 35vh;
+	margin-bottom: 2%;
+}
+
+.card {
+	margin-bottom: 1%;
+}
