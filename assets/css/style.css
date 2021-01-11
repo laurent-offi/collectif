@@ -23,3 +23,9 @@ body {
 .card .col-sm li {
  list-style: none;
 }
+
+.card-carousel {
+	margin-left: auto;
+	margin-right: auto;
+	
+}
