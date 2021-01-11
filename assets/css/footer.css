@@ -64,7 +64,7 @@ footer{
 }
 
 .footer-distributed .footer-links a:hover {
-  color: #3390ce;
+  color: #dfb522;
 }
 
 .footer-distributed .footer-company-name{
@@ -160,6 +160,14 @@ footer{
 
   margin-right: 3px;
   margin-bottom: 5px;
+}
+.footer-distributed .footer-icons a {
+  transition: background-color 0.5s ease;
+
+}
+
+.footer-distributed .footer-icons a:hover {
+  background-color: #484b4c;
 }
 
 /* Here is the code for Responsive Footer */

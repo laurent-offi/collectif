@@ -1,6 +1,7 @@
 body {
 	background-color: #efefef;
 	box-sizing: content-box;
+	overflow-x: hidden;
 }
 
 .header-home {
@@ -17,4 +18,8 @@ body {
 
 .card {
 	margin-bottom: 1%;
+}
+
+.card .col-sm li {
+ list-style: none;
 }
