@@ -14,6 +14,13 @@ body {
     src: url("../fonts/Railway.otf") format("truetype");
 }
 
+.banner-covid{
+	background-color: #dfb522;
+	color: white;
+	padding-top: 6px;
+	font-size: small;
+}
+
 #about{
 	color: #a0794a;
 }
@@ -47,9 +54,14 @@ body {
 .background {
  	background: #1B2030 url(../img/background.png) top center no-repeat;
     background-size: cover;
-    padding: 1%;
+    padding: 5%;
     text-align: center;
 }
+
+#diverses-infos{
+	margin-top: 2%;
+}
+
 
 .space {
 	margin-bottom: 2%;
@@ -95,7 +107,28 @@ h1.title {
 	border-bottom-right-radius: 5px;
 }
 
+#modal{
+	background-color: #3a6e6a;
+	color: white;
+}
+
+#exampleModalLabel{
+	font-family: Maragsâ;
+	src: url("../fonts/Maragsâ-Display.otf") format("truetype");	
+	color:#dfb522;
+	font-size: 2em;
+}
+
 .reserve a {
+	color: white;
+}
+
+.btn{
+	background-color: #ff22a9;
+	color: white;
+}
+.btn:hover{
+	background-color: #fc58bd;
 	color: white;
 }
 
@@ -131,6 +164,29 @@ h3{
 
 #active-link{
 	color: #ff22a9;
+}
+h4{
+	color:#3a6e6a;
+	font-size: 1.1em;	
+	font-weight: bold;
+}
+
+.menu-listing{
+	list-style: none;
+	color: #3a6e6a;
+	line-height: 0.8em;
+
+}
+
+.menu-title{
+	font-family: Maragsâ;
+    src: url("../fonts/Maragsâ-Display.otf") format("truetype");
+	color: #3a6e6a;
+font-size: 2em;
+}
+
+.bold-price{
+	font-weight: bold;
 }
 
 #footer-title{

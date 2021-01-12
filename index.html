@@ -1,369 +1,541 @@
 <!DOCTYPE html>
 <html lang="fr">
-	<head>
-		<title>Accueil - Le Palais de l'Inde</title>
-		<meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-       	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-		<link rel="stylesheet" href="assets/css/style.css">
-		<link rel="stylesheet" href="assets/css/footer.css">
-		<link rel="stylesheet" href="assets/css/tooltip.css">
-		<link rel="icon" href="assets/img/logo.ico"/>
-	</head>
 
-	<body>
+<head>
+	<title>Accueil - Le Palais de l'Inde</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+	<link rel="stylesheet" href="assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/footer.css">
+	<link rel="stylesheet" href="assets/css/tooltip.css">
+	<link rel="icon" href="assets/img/logo.ico" />
+</head>
 
-		<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
-		  <div class="container-fluid">
-		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-		      <span class="navbar-toggler-icon"></span>
-		    </button>
-		    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-		      <a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo du site"></a>
-		      <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
-		        <li class="nav-item">
-		          <a class="nav-link active" id="active-link" aria-current="page" href="index.html">ACCUEIL</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-white" href="#">PRÉSENTATION</a>
-				  </li>
-		        <li class="nav-item">
-		          <a class="nav-link text-white" href="#">NOTRE CARTE</a>
-		        </li>
-				<li class="nav-item">
-		          <a class="nav-link text-white" data-bs-toggle="modal" href="#reserve" tabindex="-1" aria-disabled="true">RÉSERVATION</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
-				  </li>
-		      </ul>
-		    </div>
-		  </div>
-		</nav>
-		 
+<body>
+	<div class="banner-covid">
+		<MARQUEE>COVID 19: RESTEZ CHEZ VOUS! FAITES VOUS LIVRER 7/7J SUR DELIVEROO ⛟ OU PAR TEL AU 02 35 44 17 16
+		</MARQUEE>
+	</div>
+	<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+				aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+				<a class="navbar-brand" href="index.html"><img src="assets/img/logo.png" alt="Logo du site"></a>
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex">
+					<li class="nav-item">
+						<a class="nav-link active" id="active-link" aria-current="page" href="index.html">ACCUEIL</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#">PRÉSENTATION</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#">NOTRE CARTE</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" data-bs-toggle="modal" href="#reserve" tabindex="-1"
+							aria-disabled="true">RÉSERVATION</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link text-white" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
 
-		<div class="header-home">
-			<h1 class="title text-center align-center">LE PALAIS<br> DE L'INDE</h1>
+
+	<div class="header-home">
+		<h1 class="title text-center align-center">LE PALAIS<br> DE L'INDE</h1>
+	</div>
+
+
+	<div class="container">
+
+		<div data-aos="fade-up" class="card border-0">
+			<div class="card-body">
+				<h2 class="card-title text-center">À propos</h2>
+				<p class="card-text text-center col-sm-7" id="about">Découvrez les délices de la haute gastronomie
+					indienne dans cet établissement à la décoration traditionnelle et raffinée. Déguster du pain indien,
+					des naans, des samossas, des grillades Tandoori, de l'agneau, du poulet ou bien des menus
+					végétariens. Notre restaurant est un lieu à retenir pour tous les amateurs de cuisine indienne qui
+					cherche une table incontournable.</p>
+			</div>
 		</div>
 
+		<h2 data-aos="zoom-in-down" class="card-title text-center">Notre carte</h2>
 
-		<div class="container">
+		<div data-aos="zoom-in" class="card">
 
-			<div data-aos="fade-up" class="card border-0">
-			  <div class="card-body">
-			    <h2 class="card-title text-center">À propos</h2>
-			    <p class="card-text text-center col-sm-7" id="about">Découvrez les délices de la haute gastronomie indienne dans cet établissement à la décoration traditionnelle et raffinée. Déguster du pain indien, des naans, des samossas, des grillades Tandoori, de l'agneau, du poulet ou bien des menus végétariens. Notre restaurant est un lieu à retenir pour tous les amateurs de cuisine indienne qui cherche une table incontournable.</p>
-			  </div>
-			</div>
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+				<ol class="carousel-indicators">
+					<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+					<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+					<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+					<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
 
-			<h2 data-aos="zoom-in-down" class="card-title text-center">Notre carte</h2>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="assets/img/slider1.png" class="d-block w-100" alt="Personne qui cuisine">
+						<div class="carousel-caption d-none d-md-block">
 
-			<div data-aos="zoom-in" class="card">
-
-					<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-					  <ol class="carousel-indicators">
-					    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-						<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-						<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
-						<li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"></li>
-
-					  </ol>
-					  <div class="carousel-inner">
-					    <div class="carousel-item active">
-					      <img src="assets/img/slider1.png" class="d-block w-100" alt="Personne qui cuisine">
-					      <div class="carousel-caption d-none d-md-block">
-					    
-					      </div>
 						</div>
-						<div class="carousel-item">
-							<img src="assets/img/slider2.png" class="d-block w-100" alt="...">
-							<div class="carousel-caption d-none d-md-block">
-							 
-							</div>
-						  </div>
-					    <div class="carousel-item">
-					      <img src="assets/img/slider3.png" class="d-block w-100" alt="https://media-cdn.tripadvisor.com/media/photo-s/15/55/ca/bc/cravit-bityani.jpg">
-					      <div class="carousel-caption d-none d-md-block">
-					      </div>
-					    </div>
+					</div>
+					<div class="carousel-item">
+						<img src="assets/img/slider2.png" class="d-block w-100" alt="...">
+						<div class="carousel-caption d-none d-md-block">
+
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img src="assets/img/slider3.png" class="d-block w-100"
+							alt="https://media-cdn.tripadvisor.com/media/photo-s/15/55/ca/bc/cravit-bityani.jpg">
+						<div class="carousel-caption d-none d-md-block">
+						</div>
+					</div>
 
 
-					  <div class="carousel-item">
+					<div class="carousel-item">
 						<img src="assets/img/slider4.png" class="d-block w-100" alt="Personne qui cuisine">
 						<div class="carousel-caption d-none d-md-block">
 						</div>
-					  </div>
+					</div>
 
-					  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
-					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					    <span class="visually-hidden">Previous</span>
-					  </a>
-					  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
-					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-					    <span class="visually-hidden">Next</span>
-					  </a>
+					<a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="visually-hidden">Next</span>
+					</a>
+				</div>
+			</div>
+
+			<div class="background">
+				<div class="card">
+					<div class="card-body">
+						<div class="container">
+							<div class="row align-items-start">
+								<div class="col">
+									<h5 class="menu-title text-center">Entrées
+										<hr>
+									</h5>
+									<ul class="menu-listing">
+										<li d-inline>
+											<div class="d-flex justify-content-between">
+												<h4>Soupe du chef</h4>
+												<h4>4,99€</h4>
+											</div>
+											<p class="text-start">lentilles au poulet</p>
+
+										</li>
+										<li>
+											<div class="d-flex justify-content-between">
+												<h4>Salade maison</h4>
+												<h4>8,00€</h4>
+											</div>
+											<p class="text-start">Yaourt aux crudités et aux épices</p>
+										</li>
+										<li>
+											<h4>Oignons Bhajia</h4>
+											<p>lentilles au poulet <span>4,50€</span></p>
+										</li>
+										<li>
+											<h4>Raita</h4>
+											<p>Yaourt aux crudités et aux épices <span>4,50€</span></p>
+										</li>
+										<li>
+											<h4>Pakora</h4>
+											<p>Beignets de pommes de terre, farine de
+												pois chiche et différentes épices <span>5,00€</span></p>
+										</li>
+										<h4>Samossa Viande</h4>
+										<p>Beignets de viande d'agneau épicés<span>5,00€</span></p>
+										</li>
+										</li>
+										<h4>Samossas Crevettes</h4>
+										<p>Beignets de crevettes<span>6,50€</span></p>
+										</li>
+										</li>
+										<h4>Samossas Légumes</h4>
+										<p>Beignets de différents légumes peu épicés<span>4,50€</span></p>
+										</li>
+										</li>
+										<h4>Assortiment de beignets</h4>
+										<p>Pour 2 personnes. Samossas légumes, pakora aubergine, pakora, oignions
+											bhajia<span>4,99€</span></p>
+										</li>
+
+									</ul>
+								</div>
+								<div class="col">
+									<h5 class="menu-title text-center">Plats
+										<hr>
+									</h5>
+									<ul class="menu-listing">
+										<li>
+											<h4>Poulet Punjabi</h4>
+											<p>Curry de poulet bien épicé <span>10,90€</span></p>
+										</li>
+										<li>
+											<h4>Poulet Punjabi</h4>
+											<p>Curry de poulet bien épicé <span>10,90€</span></p>
+										</li>
+										<li>
+											<h4>Poulet Palak</h4>
+											<p>Curry de poulet aux épinard <span>10,90€</span></p>
+										</li>
+										<li>
+											<h4>Poulet Madras</h4>
+											<p>Curry de poulet <span>10,90€</span></p>
+										</li>
+										<li>
+											<h4>Biryani Poulet</h4>
+											<p>Yaourt aux crudités et aux épices <span>11,90€</span></p>
+										</li>
+										<li>
+											<h4>Biryani Agneau</h4>
+											<p>Agneau désossé mijoté avec riz et différentes épices - sauce à part
+												<span>13,00€</span></p>
+										</li>
+										<li>
+											<h4>Biryani poisson</h4>
+											<p>Poisson mijoté avec riz et différentes épices - sauce à part
+												<span>12,00€</span></p>
+										</li>
+										<li>
+											<h4>Biryani du chef</h4>
+											<p>Plat à base de riz avec poulet, agneau et crevettes, sauce séparées
+												<span>15,90€</span></p>
+										</li>
+										<li>
+											<h4>Poisson Dall</h4>
+											<p>Curry de poisson avec lentilles indiennes <span>12,50€</span></p>
+										</li>
+										<li>
+											<h4>Crevettes Massala</h4>
+											<p>Curry de crevettes décortiquées, assez relevé <span>12,50€</span></p>
+										</li>
+										<li>
+											<h4>Poisson Shahi Korma</h4>
+											<p>Saumon cuit au tandoori (four), sauce noix de cajoux, pistache et amandes
+												<span>12,50€</span></p>
+										</li>
+									</ul>
+								</div>
+								<div class="col">
+									<h5 class="menu-title text-center">Desserts
+										<hr>
+									</h5>
+									<ul class="menu-listing">
+										<li>
+											<h4>Halwa</h4>
+											<p>Gâteau du chef avec fruits secs <span>4,50€</span></p>
+										</li>
+										<li>
+											<h4>Goulab Jamun</h4>
+											<p>Boules à base de lait en poudre et miel <span>5,00€</span></p>
+										</li>
+										<li>
+											<h4>Koifi</h4>
+											<p>Glace Indienne <span>4,90€</span></p>
+										</li>
+										<li>
+											<h4>Sorbet 1 boule</h4>
+											<p>4,50€</p>
+										</li>
+										<li>
+											<h4>Sorbet 2 boules</h4>
+											<p>Parfum: Vanille, Chocolat, Fraise, Pistache, Fruits de la Passion, Noix
+												de coco, Café
+												Mangue<span>5,00€</span></p>
+										</li>
+									</ul>
+									<h5 class="menu-title text-center">Boissons
+										<hr>
+									</h5>
+									<ul class="menu-listing">
+										<li>
+											<h4>Jus de fruits (25cl)</h4>
+											<p>Ananas, Abricot, Mangue, Pomme, Orange <span>3,00€</span></p>
+										</li>
+										<li>
+											<h4>Jack Daniel's (5cl)</h4>
+											<p>5,50€</p>
+										</li>
+										<li>
+											<h4>J&B (5cl)</h4>
+											<p><b>4,50€</b></p>
+										</li>
+										<li>
+											<h4>Chivas Regal (5cl)</h4>
+											<p><b>5,50€</b></p>
+										</li>
+										<li>
+											<h4>Sodas (33cl)
+											</h4>
+											<p>Coca, Fanta, Sprite<span>5,50€</span></p>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
 					</div>
 				</div>
+			</div>
 
-					<div class="background">
-						<div class="card">
-							<div class="card-body">
-								<div class="container">
-						  			<div class="row align-items-start">
-									    <div class="col">
-									      One of three columns
-									    </div>
-									    <div class="col">
-									      One of three columns
-									    </div>
-									    <div class="col">
-									      One of three columns
-									    </div>
-									  </div>
-									  <div class="row align-items-center">
-									    <div class="col">
-									      One of three columns
-									    </div>
-									    <div class="col">
-									      One of three columns
-									    </div>
-									    <div class="col">
-									      One of three columns
-									    </div>
-									  </div>
-									  <div class="row align-items-end">
-									    <div class="col">
-									      One of three columns
-									    </div>
-									    <div class="col">
-									      One of three columns
-									    </div>
-									    <div class="col">
-									      One of three columns
-									    </div>
-						  			</div>
+
+
+			<div class="reserve">
+				<p class="card-text">VOUS SOUHAITEZ MANGER DANS NOTRE RESTAURANT ? <a data-bs-toggle="modal"
+						href="#reserve">RÉSERVEZ ICI</a>
+			</div>
+		</div>
+
+
+
+		<div class="modal fade" id="reserve" tabindex="-1" aria-labelledby="reserve" aria-hidden="true">
+			<div class="modal-dialog">
+				<div class="modal-content" id="modal">
+					<div class="modal-header">
+						<h5 class="modal-title" id="exampleModalLabel">Réservation</h5>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					</div>
+					<div class="modal-body">
+						<div class="col-md-12">
+							<div class="booking-form">
+								<form>
+									<div class="form-group">
+										<span class="form-label">Votre adresse email</span>
+										<input class="form-control" type="email" placeholder="exemple@email.com">
+									</div>
+									<div class="row">
+										<div class="col-sm-12">
+											<div class="form-group">
+												<span class="form-label">Date de réservation</span>
+												<input class="form-control" type="date" required="">
+											</div>
+										</div>
+
+									</div>
+
+									<div class="row">
+										<div class="col-sm-4">
+											<div class="form-group">
+												<span class="form-label">Personnes</span>
+												<select class="form-control">
+													<option>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+													<option>5+</option>
+												</select>
+
+												<span class="select-arrow"></span>
+
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="form-group">
+												<span class="form-label">Adultes</span>
+												<select class="form-control">
+													<option>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+													<option>5+</option>
+												</select>
+
+												<span class="select-arrow"></span>
+											</div>
+										</div>
+
+										<div class="col-sm-4">
+											<div class="form-group">
+												<span class="form-label">Enfants</span>
+												<select class="form-control">
+													<option>0</option>
+													<option>1</option>
+													<option>2</option>
+													<option>3</option>
+													<option>4</option>
+													<option>5</option>
+													<option>5+</option>
+												</select>
+
+												<span class="select-arrow"></span>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn"><i class="fa fa-check"></i> Confirmer</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h2 data-aos="zoom-in-down" class="card-title text-center" id="diverses-infos">Informations diverses</h2>
+
+		<div data-aos="fade-up" class="card">
+			<div class="card-body contact">
+				<p class="card-text">
+
+					<div class="container">
+						<div class="row">
+							<div class="col-sm">
+								<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
+									<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div>
+									<script>
+										(function () {
+											var setting = {
+												"height": 300,
+												"width": 600,
+												"zoom": 17,
+												"queryString": "12 Rue Frédéric Bellanger, Le Havre, France",
+												"place_id": "ChIJ5S_uUS4v4EcRNhUqTpLlCvE",
+												"satellite": false,
+												"centerCoord": [49.49556661859054, 0.09522945000002281],
+												"cid": "0xf10ae5924e2a1536",
+												"lang": "fr",
+												"cityUrl": "/france/cabourg-12930",
+												"cityAnchorText": "Carte de Cabourg, Normandie, France",
+												"id": "map-9cd199b9cc5410cd3b1ad21cab2e54d3",
+												"embed_id": "345685"
+											};
+											var d = document;
+											var s = d.createElement('script');
+											s.src = 'https://1map.com/js/script-for-user.js?embed_id=345685';
+											s.async = true;
+											s.onload = function (e) {
+												window.OneMap.initMap(setting)
+											};
+											var to = d.getElementsByTagName('script')[0];
+											to.parentNode.insertBefore(s, to);
+										})();
+									</script><a href="https://1map.com/fr/map-embed">1 Map</a>
 								</div>
+							</div>
+							<div class="col-sm text-white text-center">
+								<h3>Horaires d'ouverture</h3>
+
+								<li><b>Les lundi de :</b> 18:30 – 23:00</li>
+								<li><b>Du mardi au dimanche de :</b> 11:30 – 14:30, 18:30 – 23:00</li>
+								<hr>
+
+								<h3>Nous contacter</h3>
+
+								<div>
+									<i class="fas fa-map-marker-alt"></i>
+									Le, 12 Rue Frédéric Bellanger
+									76600 Le Havre
+								</div>
+
+								<div>
+									<i class="fa fa-phone"></i>
+									+330235441716
+								</div>
+
+								<div>
+									<i class="fa fa-envelope"></i>
+									earam2050@gmail.com
+								</div>
+
+
 							</div>
 						</div>
 					</div>
-				
+				</p>
 
-
-					<div class="reserve">
-			 			<p class="card-text">VOUS SOUHAITEZ MANGER DANS NOTRE RESTAURANT ? <a data-bs-toggle="modal" href="#reserve">RÉSERVEZ ICI</a>
-			 		</div>
 			</div>
-
-
-
-				<div class="modal fade" id="reserve" tabindex="-1" aria-labelledby="reserve" aria-hidden="true">
-				  <div class="modal-dialog">
-				    <div class="modal-content">
-				      <div class="modal-header">
-				        <h5 class="modal-title" id="exampleModalLabel">Réservation</h5>
-				        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-				      </div>
-				      <div class="modal-body">
-								<div class="col-md-12">
-										<div class="booking-form">
-											<form>
-												<div class="form-group">
-													<span class="form-label">Votre adresse email</span>
-														<input class="form-control" type="email" placeholder="exemple@email.com">
-												</div>
-													<div class="row">
-														<div class="col-sm-12">
-															<div class="form-group">
-																<span class="form-label">Date de réservation</span>
-																<input class="form-control" type="date" required="">
-															</div>
-														</div>
-
-													</div>
-
-													<div class="row">
-														<div class="col-sm-4">
-															<div class="form-group">
-																<span class="form-label">Personnes</span>
-																<select class="form-control">
-																	<option>1</option>
-																	<option>2</option>
-																	<option>3</option>
-																	<option>4</option>
-																	<option>5</option>
-																	<option>5+</option>
-																</select>
-
-															<span class="select-arrow"></span>
-
-															</div>
-														</div>
-
-														<div class="col-sm-4">
-															<div class="form-group">
-																<span class="form-label">Adultes</span>
-																<select class="form-control">
-																	<option>1</option>
-																	<option>2</option>
-																	<option>3</option>
-																	<option>4</option>
-																	<option>5</option>
-																	<option>5+</option>
-																</select>
-
-															<span class="select-arrow"></span>
-															</div>
-														</div>
-
-														<div class="col-sm-4">
-															<div class="form-group">
-																<span class="form-label">Enfants</span>
-																<select class="form-control">
-																	<option>0</option>
-																	<option>1</option>
-																	<option>2</option>
-																	<option>3</option>
-																	<option>4</option>
-																	<option>5</option>
-																	<option>5+</option>
-																</select>
-															
-															<span class="select-arrow"></span>
-															</div>
-														</div>
-													</div>
-											</form>
-										</div>
-									</div>
-
-					      		</div>
-				      		<div class="modal-footer">
-				        <button type="button" class="btn btn-primary"><i class="fa fa-check"></i> Confirmer</button>
-				      </div>
-				    </div>
-				  </div>
-				</div>
-
-			<h2 data-aos="zoom-in-down" class="card-title text-center ">Informations diverses</h2>
-
-			<div data-aos="fade-up" class="card">
-			  <div class="card-body contact">
-			    <p class="card-text">
-
-				<div class="container">
-				  <div class="row">
-				    <div class="col-sm">
-						<div id="wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3">
-							<div id="map-9cd199b9cc5410cd3b1ad21cab2e54d3"></div><script>(function () {
-					        var setting = {"height":300,"width":600,"zoom":17,"queryString":"12 Rue Frédéric Bellanger, Le Havre, France","place_id":"ChIJ5S_uUS4v4EcRNhUqTpLlCvE","satellite":false,"centerCoord":[49.49556661859054,0.09522945000002281],"cid":"0xf10ae5924e2a1536","lang":"fr","cityUrl":"/france/cabourg-12930","cityAnchorText":"Carte de Cabourg, Normandie, France","id":"map-9cd199b9cc5410cd3b1ad21cab2e54d3","embed_id":"345685"};
-					        var d = document;
-					        var s = d.createElement('script');
-					        s.src = 'https://1map.com/js/script-for-user.js?embed_id=345685';
-					        s.async = true;
-					        s.onload = function (e) {
-					          window.OneMap.initMap(setting)
-					        };
-					        var to = d.getElementsByTagName('script')[0];
-					        to.parentNode.insertBefore(s, to);
-					      })();</script><a href="https://1map.com/fr/map-embed">1 Map</a></div>
-						</div>
-				    <div class="col-sm text-white text-center">
-				     	<h3>Horaires d'ouverture</h3>
-
-						<li><b>Les lundi de :</b>	18:30 – 23:00</li>
-						<li><b>Du mardi au dimanche de :</b>	11:30 – 14:30, 18:30 – 23:00</li>
-						<hr>
-
-						<h3>Nous contacter</h3>
-
-						<div>
-							<i class="fas fa-map-marker-alt"></i>
-                     		Le, 12 Rue Frédéric Bellanger
-                        	76600 Le Havre
-                    	</div>
-
-		                <div>
-		                    <i class="fa fa-phone"></i>
-		                    +330235441716
-		                </div>
-
-						<div>
-                    		<i class="fa fa-envelope"></i>
-                    		earam2050@gmail.com
-                		</div>
-
-
-				    </div>
-				  </div>
-				</div>
-			</p>
-
-			  </div>
-			</div>
+		</div>
 
 	</div>
 
-		<footer class="footer-distributed">
+	<footer class="footer-distributed">
 
-            <div class="footer-left">
-                <h3 id=footer-title>Le Palais de l'Inde</h3>
+		<div class="footer-left">
+			<h3 id=footer-title>Le Palais de l'Inde</h3>
 
-                <p class="footer-links">
-                    <a href="index.html">Accueil</a>
-                    |
-                    <a href="mentions.html">Mentions légales</a>
-                </p>
-            </div>
+			<p class="footer-links">
+				<a href="index.html">Accueil</a>
+				|
+				<a href="mentions.html">Mentions légales</a>
+			</p>
+		</div>
 
-            <div class="footer-center">
-                <div>
-                    <i class="fas fa-map-marker-alt"></i>
-                      <p>Le, 12 Rue Frédéric Bellanger<br>
-                        76600 Le Havre</p>
-                </div>
+		<div class="footer-center">
+			<div>
+				<i class="fas fa-map-marker-alt"></i>
+				<p>Le, 12 Rue Frédéric Bellanger<br>
+					76600 Le Havre</p>
+			</div>
 
-                <div>
-                    <i class="fa fa-phone"></i>
-                    <p>+330235441716</p>
-                </div>
-                <div>
-                    <i class="fa fa-envelope"></i>
-                    <p>earam2050@gmail.com</p>
-                </div>
-            </div>
-            <div class="footer-right">
-                <p class="footer-company-about">
-                    <span>À propos</span>
-                    Découvrez les délices de la haute gastronomie indienne dans cet établissement à la décoration traditionnelle et raffinée. Déguster du pain indien, des naans, des samossas, des grillades Tandoori, de l'agneau, du poulet ou bien des menus végétariens. Notre restaurant est un lieu à retenir pour tous les amateurs de cuisine indienne qui cherche une table incontournable.</p>
+			<div>
+				<i class="fa fa-phone"></i>
+				<p>+33235441716</p>
+			</div>
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p>earam2050@gmail.com</p>
+			</div>
+		</div>
+		<div class="footer-right">
+			<p class="footer-company-about">
+				<span>À propos</span>
+				Découvrez les délices de la haute gastronomie indienne dans cet établissement à la décoration
+				traditionnelle et raffinée. Déguster du pain indien, des naans, des samossas, des grillades Tandoori, de
+				l'agneau, du poulet ou bien des menus végétariens. Notre restaurant est un lieu à retenir pour tous les
+				amateurs de cuisine indienne qui cherche une table incontournable.</p>
 
-                <div class="footer-icons">
+			<div class="footer-icons">
 
-                	<span data-tooltip="Facebook" data-flow="top">
-						<a href="https://www.facebook.com/Le-palais-de-linde-494138984424133" target="_blank"><i class="fab fa-facebook"></i></a>
-					</span>
+				<span data-tooltip="Facebook" data-flow="top">
+					<a href="https://www.facebook.com/Le-palais-de-linde-494138984424133" target="_blank"><i
+							class="fab fa-facebook"></i></a>
+				</span>
 
-					<span data-tooltip="Tripadvisor" data-flow="top">
-						<a href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d15310414-Reviews-Le_Palais_De_L_inde-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html" target="_blank"><i class="fab fa-tripadvisor"></i></a>
-					</span>
+				<span data-tooltip="Tripadvisor" data-flow="top">
+					<a href="https://www.tripadvisor.fr/Restaurant_Review-g187190-d15310414-Reviews-Le_Palais_De_L_inde-Le_Havre_Seine_Maritime_Haute_Normandie_Normandy.html"
+						target="_blank"><i class="fab fa-tripadvisor"></i></a>
+				</span>
 
-					<span data-tooltip="Deliveroo" data-flow="top">					
-						<a href="https://deliveroo.fr/fr/menu/le-havre/le-havre-saint-vincent-thiers-gobelins/le-palais-de-linde-le-havre" target="_blank"><i class="fas fa-truck"></i></a>
-					</span>
-				</div>
+				<span data-tooltip="Deliveroo" data-flow="top">
+					<a href="https://deliveroo.fr/fr/menu/le-havre/le-havre-saint-vincent-thiers-gobelins/le-palais-de-linde-le-havre"
+						target="_blank"><i class="fas fa-truck"></i></a>
+				</span>
+			</div>
 
-            </div>
-        </footer>
+		</div>
+	</footer>
 
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+	</script>
 	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script type="text/javascript" src="assets/js/AOS.js"></script>
-    <script type="text/javascript" src="assets/js/title.js"></script>
-  
-</script>
+	<script type="text/javascript" src="assets/js/AOS.js"></script>
+	<script type="text/javascript" src="assets/js/title.js"></script>
 
-	</body>
+	</script>
+
+</body>
 
 </html>
