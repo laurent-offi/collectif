@@ -74,6 +74,20 @@ body {
 	background-color: #dfb522;
 }
 
+.reserve {
+	background-color: #ff22a9;
+	border: none;
+	color: white;
+	text-align: center;
+	padding: 1%;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+.reserve a {
+	color: white;
+}
+
 h1{
     font-family: Maragsâ;
 	src: url("../fonts/Maragsâ-Display.otf") format("truetype");
