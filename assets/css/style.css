@@ -23,6 +23,8 @@ body {
 
 #about{
 	color: #a0794a;
+	line-height: 2em;
+	text-align: justify;
 }
 
 .nav-link{
