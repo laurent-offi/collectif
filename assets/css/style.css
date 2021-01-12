@@ -1,21 +1,57 @@
+@font-face {
+    font-family: Maragsâ;
+    src: url("../fonts/Maragsâ-Display.otf") format("truetype");
+}
+@font-face {
+    font-family: Railway;
+    src: url("../fonts/Railway.otf") format("truetype");
+}
+
 body {
-	background-color: #efefef;
 	box-sizing: content-box;
 	overflow-x: hidden;
+	font-family: Railway;
+    src: url("../fonts/Railway.otf") format("truetype");
+}
+
+#about{
+	color: #a0794a;
+}
+
+.nav-link{
+    font-family: Railway;
+    src: url("../fonts/Railway.otf") format("truetype");	
+
 }
 
 .header-home {
- 	background: #1B2030 url(https://static.takeaway.com/images/generic/heroes/71/71_indian_1.jpg) top center no-repeat;
+ 	background: #1B2030 url(../img/header.png) top center no-repeat;
     background-size: cover;
     background-attachment: fixed;
 	color: white;
 	padding: 2%;
 	box-sizing: content-box;
 	text-align: center;
-	min-height: 35vh;
+height: 500px;
 	margin-bottom: 2%;
 }
 
+h1{
+    font-family: Maragsâ;
+	src: url("../fonts/Maragsâ-Display.otf") format("truetype");
+	font-size: 100px;	
+    vertical-align: middle;
+}
+
+h2{
+	font-family: Maragsâ;
+src: url("../fonts/Maragsâ-Display.otf") format("truetype");
+color: #3a6e6a;
+}
+h3{
+    font-family: Maragsâ;
+	src: url("../fonts/Maragsâ-Display.otf") format("truetype");	
+}
 .card {
 	margin-bottom: 1%;
 }
@@ -29,3 +65,15 @@ body {
 	margin-right: auto;
 	
 }
+
+#active-link{
+	color: #ff22a9;
+}
+
+#footer-title{
+	font-family: Maragsâ;
+	src: url("../fonts/Maragsâ-Display.otf") format("truetype");	
+	font-size: 35px;
+	color: #dfb522;
+}
+
